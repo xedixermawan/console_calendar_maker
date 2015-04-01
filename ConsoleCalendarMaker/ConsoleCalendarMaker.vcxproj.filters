@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="pngpp">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="pngwriter">
+      <UniqueIdentifier>{bbd0f0a1-e0a4-4106-aa8c-8766b0ee43f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pngwriter\pngwriter.cc">
+      <Filter>pngwriter</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pngpp\color.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\config.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\consumer.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\convert_color_space.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\end_info.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\error.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\ga_pixel.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\generator.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\gray_pixel.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\image.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\image_info.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\index_pixel.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\info.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\info_base.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\io_base.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\packed_pixel.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\palette.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pixel_buffer.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\pixel_traits.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\png.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\reader.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\require_color_space.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\rgb_pixel.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\rgba_pixel.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\streaming_base.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\tRNS.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\types.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngpp\writer.hpp">
+      <Filter>pngpp</Filter>
+    </ClInclude>
+    <ClInclude Include="pngwriter\pngwriter.h">
+      <Filter>pngwriter</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
