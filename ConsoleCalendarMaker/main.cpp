@@ -2,6 +2,7 @@
 *  console calendar maker ( ccm )
 *  console app to generate calendar from year-month input, the output is png image
 *  (c) 2014  edi ermawan < edi.ermawan@gmail.com >
+*  I added a comment here ( 2016 )
 */
 
 #include <iostream>
